@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/dfff6eb483.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bgBlue shadow">
+      <a class="navbar-brand" href="#">BlogCMS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Bangla</a>
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Poem</a>
+              <a class="dropdown-item" href="#">Story</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control bg-light mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid h-100 signUpTreeImageFix">
+      <div class="row bgLightBlue">
+        <div class="col-md-6 d-flex align-items-end height100">
+          <img
+            src="./img/Tree_swing.svg"
+            alt="Tree swing image"
+            class="w-100"
+          />
+        </div>
+        <div class="offset-md-1 col-md-4 signUpContent mt-3">
+          <div class="card">
+            <div class="card-body shadow rounded">
+              <h2 class="text-center textBlue">Create Account</h2>
+              <hr class="w-50 mx-auto bgLightBlue" />
+              <form action="#">
+                <div class="form-group">
+                  <label for="name">
+                    <i class="fas fa-user textBlue"></i> Name
+                  </label>
+                  <input type="text" class="form-control" id="name" required/>
+                </div>
+                <div class="form-group">
+                  <label for="email">
+                    <i class="fas fa-envelope textBlue"></i> Email
+                  </label>
+                  <input type="text" class="form-control" id="email" required/>
+                </div>
+                <div class="form-group">
+                  <label for="password">
+                    <i class="fas fa-lock textBlue"></i> Password
+                  </label>
+                  <input type="text" class="form-control" id="password" required/>
+                </div>
+                <div class="form-group">
+                  <label for="password2">
+                    <i class="fas fa-lock textBlue"></i> Retype Password
+                  </label>
+                  <input type="text" class="form-control" id="password2" required/>
+                </div>
+                <div class="form-group d-flex justify-content-center">
+                  <input
+                    type="submit"
+                    value="Sign Up"
+                    class="btn btn-primary w-50"
+                  />
+                </div>
+              </form>
+              <div class="text-center pt-2">
+                <h5 class="textBlue lead">Sign up with social account</h5>
+                <div class="d-flex justify-content-center">
+                  <a href="#"
+                    ><i class="fab fa-facebook sizeSocialIcon pr-4"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter sizeSocialIcon pr-4"></i
+                  ></a>
+                  <a href="#"><i class="fab fa-linkedin sizeSocialIcon"></i></a>
+                </div>
+              </div><hr />
+              <h6 class="text-center py-3">
+                Already have an account. <a href="./Login.html">Login now</a>
+              </h6>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

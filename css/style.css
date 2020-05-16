@@ -1,0 +1,44 @@
+:root{
+    --colorLightBlue: #E7F2FC;
+    --colorBlue: #1F86DC;
+    --colorWhite: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bgLightBlue{
+    background: var(--colorLightBlue);
+}
+.textBlue{
+    color: var(--colorBlue);
+}
+.bgBlue{
+    background: var(--colorBlue);
+}
+.height100{
+    height: 90vh;
+}
+.sizeSocialIcon{
+    font-size: 1.8rem;
+}
+
+@media screen  and (max-width: 768px){
+    .navbar{
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .signUpTreeImageFix .col-md-6{
+        position: absolute;
+        z-index: 1;
+        top: 30vh;
+    }
+    .signUpTreeImageFix .col-md-4{
+        position: absolute;
+        z-index: 2;
+        top: 15vh;
+    }
+}

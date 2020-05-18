@@ -11,6 +11,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+a.textBlue{
+    text-decoration: none !important;
+    transition: .4s color ease-in-out;
+}
+a.textBlue:hover{
+    text-decoration: none !important;
+    color: var(--colorBlack70) !important;
+}
 .bgLightBlue{
     background: var(--colorLightBlue);
 }
@@ -61,6 +69,47 @@
     width: 100%;
     color: var(--colorBlue50);
 }
+.singleCardAllPost a img:hover{
+    transform: scale(.95);
+}
+footer .fab{
+    font-size: 1.3rem;
+    transition: .3s color ease-in-out;
+}
+footer .fab:hover{
+    color: var(--colorBlack70);
+}
+.socialLinksFooter a{
+    text-decoration: none;
+}
+/** Contact **/
+.contact-form-custom{
+    background: #fff;
+    width: 100%;
+}
+.contact-form-custom .form-control{
+    border-radius:1rem;
+}
+.contact-form-custom form{
+    padding: 5% 2%;
+}
+.contact-form-custom .btnContact {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5% 0;
+    background: var(--colorBlue);
+    font-weight: 600;
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+.contact-form-custom .btnContact:hover{
+    background: var(--colorBlack70);
+    transition: .5s all ease-in-out;
+}
+
 @media screen  and (max-width: 768px){
     .navbar{
         position: absolute;
@@ -76,5 +125,12 @@
         position: absolute;
         z-index: 2;
         top: 15vh;
+    }
+    .order1{
+        order: 1;
+        
+    }
+    .order2{
+        order: 2;
     }
 }

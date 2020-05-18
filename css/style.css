@@ -1,7 +1,9 @@
 :root{
     --colorLightBlue: #E7F2FC;
     --colorBlue: #1F86DC;
+    --colorBlue50: rgb(107, 187, 252);
     --colorWhite: #fff;
+    --colorBlack70: rgb(4, 32, 54);
 }
 
 *{
@@ -13,7 +15,13 @@
     background: var(--colorLightBlue);
 }
 .textBlue{
-    color: var(--colorBlue);
+    color: var(--colorBlue) !important;
+}
+.textBlue50{
+    color: var(--colorBlue50)  !important;
+}
+.textLightBlue{
+    color: var(--colorLightBlue)  !important;
 }
 .bgBlue{
     background: var(--colorBlue);
@@ -24,7 +32,35 @@
 .sizeSocialIcon{
     font-size: 1.8rem;
 }
-
+.single-post:hover{
+    color: var(--colorBlue);
+}
+.single-post img:hover{
+    transform: scale(1.1);
+}
+.titlePopulerPost{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--colorBlack70);
+}
+.titlePopulerPost:hover{
+    text-decoration: none;
+    color: var(--colorBlue);
+}
+.carousel-caption a{
+    text-decoration: none;
+    width: 100%;
+    padding: 0 10%;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    color: var(--colorWhite);
+    background: rgb(0, 0, 0,.55) ;
+}
+.carousel-caption a:hover{
+    text-decoration: none;
+    width: 100%;
+    color: var(--colorBlue50);
+}
 @media screen  and (max-width: 768px){
     .navbar{
         position: absolute;

@@ -86,6 +86,34 @@ footer .fab:hover {
 .socialLinksFooter a {
   text-decoration: none;
 }
+
+/**Sign up **/
+.bgSignUp {
+  background: url("../img/nataiBg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/**Sign up 2**/
+.bgSignUp2 {
+  background: url("../img/boatRiver.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/**Sign up 3**/
+.bgSignUp3 {
+  background: url("../img/blueSkyBird.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /** Contact **/
 .contact-form-custom {
   background: #fff;
